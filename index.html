@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Nufian Hospital</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logonufian.png" rel="icon">
+  <link href="assets/img/logonufian.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<style>
+/* Styling Topbar */
+.topbar {
+  background: #f8f9fa;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  border-bottom: 1px solid #eee;
+}
+
+.topbar .contact-info i a, 
+.topbar .contact-info i span {
+  color: #2c4964;
+  text-decoration: none;
+}
+
+.topbar .social-links a {
+  color: #437099;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.topbar .social-links a:hover {
+  color: #1977cc;
+}
+
+/* Styling Branding Area */
+.branding {
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo Baru */
+.logo-icon-box {
+  background: #1977cc;
+  color: white;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.sitename {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #2c4964;
+  text-transform: uppercase;
+}
+
+.sitename span {
+  color: #1977cc;
+  font-weight: 300;
+}
+
+/* Tombol Custom */
+.custom-btn {
+  background: #1977cc;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.custom-btn:hover {
+  background: #1c8ce3;
+  box-shadow: 0 4px 15px rgba(25, 119, 204, 0.3);
+}
+</style>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+  <div class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center">
+          <a href="mailto:layanan@nufian.hospital.com" class="ms-2">layanan@nufian.hospital.com</a>
+        </i>
+        <i class="bi bi-headset d-flex align-items-center ms-4">
+          <span class="ms-2">1-500-911</span>
+        </i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="branding d-flex align-items-center">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logonufian.png" alt="Logo Nufian Hospital" class="img-fluid" style="max-height: 50px; margin-right: 10px;">
+        <h1 class="sitename">NUFIAN <span>HOSPITAL</span></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#services">Layanan Kami</a></li>
+          <li><a href="#departments">Departemen</a></li>
+          <li><a href="#doctors">Dokter</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="cta-btn d-none d-sm-block custom-btn" href="#appointment">
+        <i class="bi bi-calendar-check me-2"></i> Buat Janji Temu
+      </a>
+
+    </div>
+</div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/herobg.png" alt="" data-aos="fade-in">
+
+      <div class="container position-relative">
+
+        <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
+          <h2 style="color: #fff;">Kesehatan Anda Prioritas Kami</h2>
+          <p style="color: #fff;">Rumah sakit terpercaya dengan pelayanan terbaik untuk Anda dan keluarga.</p>
+        </div><!-- End Welcome -->
+
+        <div class="content row gy-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
+              <h3>Mengapa Harus Memilih Nufian Hospital?</h3>
+              <p>
+                Nufian Hospital adalah pusat kesehatan terkemuka yang menawarkan layanan medis berkualitas tinggi dengan teknologi mutakhir. Dengan pengalaman lebih dari 20 tahun, kami berkomitmen untuk menyediakan layanan terbaik bagi pasien kami.
+              </p>
+              <div class="text-center">
+                <a href="#about" class="more-btn"><span>Pelajari Lebih Lanjut</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="row gy-4">
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h4>Data Kesehatan yang Terpercaya, Untuk Anda</h4>
+                    <p>Dengan data yang terpercaya, rumah sakit memastikan pasien dan keluarga mereka dapat membuat keputusan kesehatan yang tepat</p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
+                    <i class="bi bi-gem"></i>
+                    <h4>Memancarkan Keunggulan di Setiap Layanan Kesehatan</h4>
+                    <p>Selalu memberikan layanan terbaik yang terlihat jelas dalam setiap aspek perawatan, memastikan pasien mendapatkan pengalaman kesehatan yang luar biasa</p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
+                    <i class="bi bi-inboxes"></i>
+                    <h4>Teknologi Terkini untuk Diagnosis yang Akurat</h4>
+                    <p>Kami memastikan setiap pemeriksaan dilakukan dengan peralatan modern dan protokol standar terbaik</p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+              </div>
+            </div>
+          </div>
+        </div><!-- End  Content-->
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4 gx-5">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+            <a href="assets/img/departments-1.jpg" class="glightbox pulsating-play-btn"></a>
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>Tentang Kami</h3>
+            <p>
+              Nufian Hospital merupakan rumah sakit yang berkomitmen untuk melayani dengan sepenuh hati, menyelenggarakan layanan kesehatan yang paripurna, bermutu dan efisien.Nufian Hospital memiliki tim medis yang ahli dan berpengalaman yang mengedepankan keamanan dan kenyamanan pasien dan keluarga.
+
+              Nufian Hospital Memiiki tiga layanan utama yakni Layanan Umum, Layanan penunjang, dan Layanan Unggulan. Pelayanan kesehatan umum meliputi, Instalasi Gawat Darurat (IGD), Rawat Jalan yang terdiri dari poliklinik umum, poliklinik spesialis serta poliklinik subspesialis, Rawat Inap, Rawat intensif (ICU,HCU, PICU dan NICU).
+
+              Layanan penunjang 24 jam Nufian Hospital menyediakan layanan terpadu untuk radiologi, laboratorium dan farmasi serta layanan penunjang lainnya yaitu Fisioterapi, Hemodialisis, Endoskopi & Laparoskopi dengan tarif yang kompetitif. Layanan Penunjang RS Antam Medika dikhususkan untuk pasien dengan gangguan fungsional akibat keadaan atau kondisi sakit, penyakit atau cedera dari sistem saraf, otot, tulang dan kardiorespirasi. Nufian Hospital menyediakan Layanan Unggulan antara lain: Geriatri, Medical Check Up, Ibu dan Anak serta Traumatologi.
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-vial-circle-check"></i>
+                <div>
+                  <h5>Pusat Riset Kesehatan dengan Standar Internasional</h5>
+                  <p>Dengan kolaborasi para ahli, laboratorium kami menjadi pelopor dalam inovasi medis</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-pump-medical"></i>
+                <div>
+                  <h5>Protokol Kebersihan yang Menjamin Kesehatan Anda</h5>
+                  <p>Prosedur sanitasi kami yang ketat mendukung keamanan dan ketenangan pikiran Anda</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-heart-circle-xmark"></i>
+                <div>
+                  <h5>Mencegah Risiko, Memperkuat Harapan</h5>
+                  <p>komitmen kami untuk memberikan layanan kesehatan terbaik meminimalkan risiko kesehatan, baik melalui diagnosis dini, tindakan preventif, maupun perawatan yang aman dan terukur.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fa-solid fa-user-doctor"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Dokter</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fa-regular fa-hospital"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Departmen</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fas fa-flask"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Laboratorium Penelitian</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fas fa-award"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="290" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Penghargaan</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Layanan kami</h2>
+        <p>mengutamakan perlindungan pasien dengan mengintegrasikan teknologi canggih dan praktik medis terbaik</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Menonjolkan Kepedulian</h3>
+              </a>
+              <p>Setiap layanan kami berlandaskan pada kepedulian, keahlian, dan komitmen terhadap kesehatan Anda. Apapun kebutuhan kesehatan Anda, kami siap mendampingi dengan solusi terbaik dan perhatian penuh</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-pills"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Memperkuat Kepercayaan</h3>
+              </a>
+              <p>Sebagai mitra kesehatan Anda, kami menyediakan berbagai layanan medis yang dapat diandalkan. Dengan tim spesialis berpengalaman dan fasilitas lengkap, kami memastikan Anda mendapatkan perawatan terbaik setiap saat</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-hospital-user"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> Profesional dan Informatif</h3>
+              </a>
+              <p>Rumah Sakit Sehat menghadirkan berbagai layanan kesehatan dengan standar terbaik. Kami berdedikasi memberikan solusi kesehatan komprehensif, mulai dari pemeriksaan rutin hingga perawatan khusus. Setiap layanan kami dirancang untuk memenuhi kebutuhan kesehatan Anda dengan pendekatan profesional dan penuh perhatian.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-dna"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Memperkuat Kepercayaan</h3>
+              </a>
+              <p>Sebagai mitra kesehatan Anda, kami menyediakan berbagai layanan medis yang dapat diandalkan. Dengan tim spesialis berpengalaman dan fasilitas lengkap, kami memastikan Anda mendapatkan perawatan terbaik setiap saat.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-wheelchair"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Aman</h3>
+              </a>
+              <p>Dalam setiap langkah perawatan, kami mengutamakan keselamatan pasien dengan melakukan evaluasi menyeluruh terhadap risiko dan memastikan bahwa setiap tim medis kami terlatih untuk menangani keadaan darurat dengan cepat dan efektif</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-notes-medical"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Fokus pada Ragam Layanan</h3>
+              </a>
+              <p>Beragam layanan unggulan kami hadir untuk memenuhi semua kebutuhan kesehatan Anda. Mulai dari konsultasi medis, pemeriksaan lanjutan, hingga layanan rawat inap, kami menyediakan fasilitas modern dan teknologi terkini untuk mendukung perawatan yang optimal</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Services Section -->
+
+    <section id="appointment" class="appointment section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Janji Temu</h2>
+        <p>Mudah, Cepat, dan Terjamin untuk Janji Temu Anda</p>
+      </div><!-- End Section Title -->
+    
+      <!-- Appointment Form -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form id="appointmentForm" action="forms/appointment.php" method="post" role="form" class="php-email-form" onsubmit="showGreetingCard(event)">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nama Kamu" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email Kamu" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Nomor Kamu" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select" required>
+                <option value="">Pilih Departemen</option>
+                <option value="Department 1">Cardiology</option>
+                <option value="Department 2">Neurology</option>
+                <option value="Department 3">Hepatology</option>
+                <option value="Department 4">Pediatric</option>
+                <option value="Department 5">Eye Care</option>
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select" required>
+                <option value="">Pilih Dokter</option>
+                <option value="Doctor 1">Prof. Kim Jun Wan</option>
+                <option value="Doctor 2">Dr. Chae Song-hwa</option>
+                <option value="Doctor 3">Dr. Ahn Jeong-won</option>
+                <option value="Doctor 4">Dr. Crystal</option>
+              </select>
+            </div>
+          </div>
+    
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Pesan (Opsional)"></textarea>
+          </div>
+          <div class="mt-3">
+            <div class="text-center"><button type="submit">Buatlah Janji Temu</button></div>
+          </div>
+        </form>
+      </div>
+    
+      <!-- Greeting Card (Initially Hidden) -->
+      <div id="greetingCard" class="greeting-card" style="display: none;">
+        <div class="container">
+          <div class="card-body text-center">
+            <h2>Terima Kasih Telah Membuat Janji Temu!</h2>
+            <p>Proses Janji Temu Anda telah berhasil. Kami akan mengonfirmasi jadwal Anda segera.</p>
+            <a href="#" class="btn btn-primary" id="backToHome">Kembali ke Beranda</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+ 
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Departmen</h2>
+        <p>Setiap departemen memiliki spesialis yang berpengalaman dan ahli di bidangnya, memberikan perawatan yang sesuai dengan kebutuhan pasien</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#departments-tab-1">Cardiology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Neurology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Hepatology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Pediatrics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-5">Eye Care</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="departments-tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cardiology</h3>
+                    <p class="fst-italic">perawatan jantung komprehensif, mulai dari diagnosis hingga pengobatan penyakit jantung dan pembuluh darah, menggunakan teknologi terkini</p>
+                    <p> 
+                      Departemen Kardiologi kami menyediakan layanan terbaik untuk kesehatan jantung dan pembuluh darah Anda. Dengan teknologi canggih dan tim spesialis berpengalaman, kami menawarkan diagnosis yang akurat, perawatan yang tepat, dan program rehabilitasi untuk membantu pasien menikmati hidup lebih sehat dan berkualitas. Dari penyakit jantung koroner hingga hipertensi, kami hadir untuk memberikan solusi kesehatan yang holistik
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-1.jpeg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Neurology</h3>
+                    <p class="fst-italic">menangani gangguan sistem saraf pusat dan perifer seperti stroke, epilepsi, dan penyakit Parkinson, didukung oleh spesialis ahli.</p>
+                    <p>
+                      Departemen Neurologi, kami menangani berbagai gangguan sistem saraf dengan pendekatan komprehensif dan personal. Tim ahli kami berdedikasi untuk merawat kondisi seperti stroke, migrain, epilepsi, hingga gangguan neurodegeneratif seperti Alzheimer dan Parkinson. Dengan peralatan diagnostik mutakhir, kami berkomitmen memberikan perawatan terbaik yang dirancang khusus untuk kebutuhan setiap pasien.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-2.jpeg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Hepatology</h3>
+                    <p class="fst-italic">Fokus pada perawatan masalah hati seperti hepatitis, sirosis, dan kanker hati. Kami menggunakan pendekatan holistik untuk membantu pasien sembuh optimal</p>
+                    <p>
+                      Kami menawarkan layanan unggulan untuk diagnosis, pengobatan, dan pencegahan penyakit hati seperti hepatitis, sirosis, dan kanker hati. Dengan pendekatan holistik dan personal, kami mendukung pemulihan kesehatan Anda melalui teknologi modern dan perawatan yang berpusat pada pasien
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Pediatric</h3>
+                    <p class="fst-italic">Kesehatan anak adalah prioritas kami. Kami menyediakan layanan untuk bayi hingga remaja, termasuk imunisasi, perawatan khusus, dan konsultasi tumbuh kembang</p>
+                    <p>Kami percaya bahwa setiap anak layak mendapatkan awal hidup yang sehat. Departemen Pediatri kami menyediakan layanan medis yang dirancang khusus untuk bayi, anak-anak, dan remaja, mulai dari imunisasi hingga perawatan penyakit kompleks. Dokter spesialis anak kami tidak hanya memberikan perawatan, tetapi juga mendukung tumbuh kembang optimal bagi buah hati Anda.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Eye Care</h3>
+                    <p class="fst-italic">Kami menawarkan solusi kesehatan mata, termasuk operasi katarak, perawatan glaukoma, dan pemeriksaan penglihatan dengan teknologi terbaru</p>
+                    <p>
+                      Departemen Perawatan Mata kami memberikan layanan menyeluruh untuk menjaga kesehatan penglihatan Anda. Dengan teknologi terbaru dan dokter mata berpengalaman, kami menangani berbagai kondisi seperti katarak, glaukoma, mata kering, hingga kelainan refraksi. Kami hadir untuk memastikan dunia Anda tetap terlihat jelas dan indah
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Departments Section -->
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Dokter</h2>
+        <p>Layanan Personal dari Dokter Tepercaya</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-1.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Prof. Kim Jun Wan</h4>
+                <span>Cardiology</span>
+                <p>Prof. Kim Jun Wan adalah spesialis jantung dengan pengalaman lebih dari 15 tahun dalam pengobatan penyakit jantung</p>
+                <p><strong>Biaya Konsultasi:</strong> Rp 900.000</p>
+                <p><strong>Ulasan:</strong> ⭐⭐⭐⭐⭐ (4.9 dari 5, 572 ulasan)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-2.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>dr. Chae Song-hwa</h4>
+                <span>Neurology</span>
+                <p>dr. Chae Song-hwa adalah ahli neurology yang berpengalaman dalam penanganan masalah saraf dan stroke.</p>
+                <p><strong>Biaya Konsultasi:</strong> Rp 700.000</p>
+                <p><strong>Ulasan:</strong> ⭐⭐⭐⭐⭐ (4.8 dari 5, 360 ulasan)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-3.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>dr. Ahn Jeong-won</h4>
+                <span>Cardiology</span>
+                <p>dr. Ahn Jeong -won adalah dokter anak yang ramah dan berdedikasi untuk memberikan perawatan terbaik bagi anak-anak</p>
+                <p><strong>Biaya Konsultasi:</strong> Rp 400.000</p>
+                <p><strong>Ulasan:</strong> ⭐⭐⭐⭐⭐ (4.9 dari 5, 200 ulasan)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-4.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>dr. Crystal</h4>
+                <span>Hepatology</span>
+                <p>dr. Crystal memiliki keahlian dalam pengobatan penyakit hati dan sering menjadi pembicara di seminar internasional</p>
+                <p><strong>Biaya Konsultasi:</strong> Rp 500.000</p>
+                <p><strong>Ulasan:</strong> ⭐⭐⭐⭐⭐ (4.8 dari 5, 120 ulasan)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Doctors Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <p>Sampaikan Pertanyaan Anda, Kami Akan Memberikan Solusi Terbaik</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>Bagaimana cara menghubungi rumah sakit dalam keadaan darurat?</h3>
+                <div class="faq-content">
+                  <p>Anda dapat menghubungi kami 24 jam sehari melalui nomor telepon darurat di +62 895-4029-46153 atau langsung datang ke Unit Gawat Darurat (UGD) kami yang siap melayani kapan saja</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Apa saja layanan medis yang tersedia di rumah sakit ini?</h3>
+                <div class="faq-content">
+                  <p> Kami menyediakan berbagai layanan medis seperti pemeriksaan kesehatan rutin, layanan darurat, operasi bedah, fisioterapi, layanan laboratorium, radiologi, dan banyak lagi. Anda dapat memeriksa halaman layanan kami untuk informasi lebih lanjut.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Bagaimana cara membuat janji temu dengan dokter?</h3>
+                <div class="faq-content">
+                  <p> Anda dapat membuat janji temu dengan dokter melalui formulir pemesanan online di website kami atau dengan menghubungi nomor telepon kami di +62 895-4029-46153 </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Apakah rumah sakit ini menerima asuransi kesehatan?</h3>
+                <div class="faq-content">
+                  <p>Ya, kami bekerja sama dengan berbagai penyedia asuransi kesehatan untuk memudahkan Anda dalam proses pembayaran. Silakan hubungi kami untuk informasi lebih lanjut mengenai daftar asuransi yang kami terima</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Apakah rumah sakit ini memiliki layanan darurat 24 jam?</h3>
+                <div class="faq-content">
+                  <p>Ya, rumah sakit kami memiliki layanan darurat yang tersedia 24 jam setiap hari. Anda dapat menghubungi kami kapan saja jika Anda membutuhkan bantuan medis segera</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Bagaimana cara mendapatkan hasil tes atau pemeriksaan medis?</h3>
+                <div class="faq-content">
+                  <p>Hasil tes atau pemeriksaan medis dapat diambil langsung di rumah sakit atau dapat diakses melalui portal pasien kami. Anda juga dapat meminta hasilnya dikirimkan ke email atau melalui aplikasi kami</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>Testimoni</h3>
+            <p>
+              Kami mengutamakan kualitas dan kepercayaan dalam setiap aspek pelayanan kesehatan
+              Inilah beberapa cerita yang membuktikan bahwa Nufian Hospital adalah pilihan yang tepat untuk perawatan terbaik.
+            </p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-1.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Lee ji hoon</h3>
+                        <h4>Ceo &amp; Founder</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Dokter yang sangat ahli dan penuh perhatia, Saya sangat senang dengan pengalaman saya di Rumah Sakit Sehat. Setiap langkah pengobatan dijelaskan dengan baik dan semua pertanyaan saya dijawab dengan sabar</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-2.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Nam Koong-min</h3>
+                        <h4>Designer</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Pengalaman luar biasa dengan pelayanan yang sangat profesional, Saya merasa sangat diperhatikan dan nyaman selama perawatan di sini. Para dokter dan perawat sangat ramah dan kompeten</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-3.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Do Kyungsoo</h3>
+                        <h4>Store Owner</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Kenyamanan dan perawatan yang saya terima luar biasa, Fasilitas rumah sakit sangat memadai, dan tim medis sangat peduli dengan setiap detail perawatan saya. Saya sangat puas</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-4.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Lee ji Eun</h3>
+                        <h4>Freelancer</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Terima kasih kepada dokter dan staf yang sangat ramah, Saya merasa sangat dihargai sebagai pasien di rumah sakit ini. Semua staf sangat membantu dan memberikan informasi dengan jelas</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-5.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>John Larson</h3>
+                        <h4>Entrepreneur</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Pelayanan yang lebih dari sekadar perawatan medis, Saya merasa sangat dihargai dan nyaman selama dirawat di sini. Tidak hanya perawatan medis yang baik, tetapi juga perhatian emosional yang luar biasa</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Galeri</h2>
+        <p>Visualisasi Keunggulan dalam Pelayanan Kesehatan</p>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-1.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-2.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-3.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-6.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-7.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpeg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-8.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontak Kami</h2>
+        <p>Hubungi kami untuk layanan kesehatan terbaik. Kami dapat dihubungi melalui telepon, email, atau langsung kunjungi rumah sakit kami</p>
+      </div><!-- End Section Title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.8995809745674!2d126.8121998153174!3d37.55663047979817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9bf4a42f2363%3A0x6be457872ae60d18!2s60%20Gonghang-daero%2C%20Gangseo-gu%2C%20Seoul%2C%20South%20Korea!5e0!3m2!1sen!2sus!4v1692317747250!5m2!1sen!2sus"  frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Alamat</h3>
+                <p>Jl. Raya Lenteng Agung No.20-21, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Jakarta Selatan</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>CALL CENTER</h3>
+                <p>1-500-911</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>layanan@nufian.hospital.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <!-- Contact Form -->
+            <div id="contactForm">
+              <form onsubmit="showGreetingPage(event)" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+          
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+          
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+          
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+          
+                  <div class="col-md-12 text-center">
+                    <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+                    <button type="submit">Kirim Pesan</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          
+            <!-- Greeting Page -->
+            <div id="greetingPage" style="display: none;">
+              <div class="greeting-content text-center">
+                <h1>Terima Kasih!</h1>
+                <p>Pesan Anda telah terkirim. Kami akan segera menghubungi Anda.</p>
+                <button onclick="returnToForm()" class="btn btn-primary">Kembali ke Formulir</button>
+              </div>
+            </div>
+          </div>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">NUFIAN HOSPITAL</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Jl. Raya Lenteng Agung No.20-21, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Jakarta Selatan</p>
+            <p>DKI JAKARTA</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        </div>
+        </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
